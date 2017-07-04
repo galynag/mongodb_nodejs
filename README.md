@@ -1,4 +1,7 @@
 # mongodb_nodejs
+start :  npm run dev
+work with Postman
+
 mongodb+nodejs
 Работаем с MongoDB из NodeJS
 Для работы с Mongo из под NodeJS необходимо выполнить следующие действия:
