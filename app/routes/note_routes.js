@@ -30,7 +30,7 @@ module.exports = function(app,db) {
         const id = req.params.id;
         const details = { '_id': new ObjectID(id) };
         const note = { text: req.body.body, title: req.body.title };
-        db.collection('notes').updateOne(details, note, (err, result) => {
+        db.collection('todo').updateOne(details, note, (err, result) => {
             if (err) {
                 res.send({'error':'An error has occurred'});
             } else {
