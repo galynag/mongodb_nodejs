@@ -1,0 +1,32 @@
+{
+  "name": "mongodb_nodejs",
+  "version": "1.0.0",
+  "description": "mongodb+nodejs\r Работаем с MongoDB из NodeJS\r Для работы с Mongo из под NodeJS необходимо выполнить следующие действия:\r В рабочей папке установите \r npm install mongodb --save\r это добавит драйвер подключения к удаленной базе данных. Напомню, что перед использованием npm нужно выполнить команду npm init.\r Далее создайте файл app.js\r var MongoClient = require('mongodb').MongoClient;",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galynag/mongodb_nodejs.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "galina gavrina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galynag/mongodb_nodejs/issues"
+  },
+  "homepage": "https://github.com/galynag/mongodb_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

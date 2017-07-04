@@ -18,4 +18,9 @@ MongoClient.connect("mongodb://<dbuser>:<dbpassword>@ds143892.mlab.com:43892/t1"
 });
 Не забудьте поменять dbuser и dbpassword.  Файл, в данный момент может только соединяться с базой и больше ничего. 
 Изучите документацию по адресу: http://www.tutorialsteacher.com/nodejs/access-mongodb-in-nodejs
-Задача: выполнить те действия, которые вы выполняли в предыдущей работе с помощью скрипта. Т.е. необходимо создать скрипт, который содержит описанные команды создания и изменения содержимого базы данных. 
+Задача: выполнить те действия, которые вы выполняли в предыдущей работе с помощью скрипта. Т.е. необходимо создать скрипт, который содержит описанные команды создания и изменения содержимого базы данных.
+
+
+ Postman makes API development faster, easier, and better. The free app is used by more than 3.5 million developers and 30,000…
+ Postman makes API development faster, easier, and better. The free app is used by more than 3.5 million developers and 30,000 companies worldwide. Postman is designed with the developer in mind, and packed with features and options.
+
